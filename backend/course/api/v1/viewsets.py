@@ -1,29 +1,29 @@
 from rest_framework import authentication
 from course.models import (
-    Recording,
-    Event,
-    Subscription,
+    Category,
     Course,
+    Enrollment,
+    Event,
     Group,
+    Lesson,
     Module,
     PaymentMethod,
+    Recording,
+    Subscription,
     SubscriptionType,
-    Enrollment,
-    Lesson,
-    Category,
 )
 from .serializers import (
-    RecordingSerializer,
-    EventSerializer,
-    SubscriptionSerializer,
+    CategorySerializer,
     CourseSerializer,
+    EnrollmentSerializer,
+    EventSerializer,
     GroupSerializer,
+    LessonSerializer,
     ModuleSerializer,
     PaymentMethodSerializer,
+    RecordingSerializer,
+    SubscriptionSerializer,
     SubscriptionTypeSerializer,
-    EnrollmentSerializer,
-    LessonSerializer,
-    CategorySerializer,
 )
 from rest_framework import viewsets
 

@@ -1,14 +1,14 @@
 from django.contrib import admin
 from .models import (
-    Recording,
-    Event,
-    Subscription,
+    Category,
     Course,
+    Enrollment,
+    Event,
     Group,
     Module,
+    Recording,
+    Subscription,
     SubscriptionType,
-    Enrollment,
-    Category,
 )
 
 admin.site.register(Course)
